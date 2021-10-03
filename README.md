@@ -1,7 +1,10 @@
 # IDATT2105_Fullstack_Project
+Project in the course IDATT2105, where the assignment were to create 
+a room reservation webappliaction. 
+
 
 ## idatt2105-project-BE
-Project in the course IDATT2105 backend developed with Spring Boot
+Project in the course IDATT2105 backend developed with Spring Boot.
 
 ### Project setup
 
