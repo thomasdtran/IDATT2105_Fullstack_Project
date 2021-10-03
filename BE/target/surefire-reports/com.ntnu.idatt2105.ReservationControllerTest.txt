@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.ntnu.idatt2105.ReservationControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.378 s <<< FAILURE! - in com.ntnu.idatt2105.ReservationControllerTest
+testFindReservationById  Time elapsed: 0.345 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<400>
+	at com.ntnu.idatt2105.ReservationControllerTest.testFindReservationById(ReservationControllerTest.java:124)
+
+testDeleteReservation  Time elapsed: 0.28 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<400>
+	at com.ntnu.idatt2105.ReservationControllerTest.testDeleteReservation(ReservationControllerTest.java:95)
+
+testFindAllReservations  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.AssertionError: 
+JSON path "$[0].roomName"
+Expected: is "Romnavn"
+     but: was "SKM201"
+	at com.ntnu.idatt2105.ReservationControllerTest.testFindAllReservations(ReservationControllerTest.java:107)
+
